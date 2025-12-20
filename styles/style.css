@@ -58,6 +58,7 @@ body {
 
 .main-welcome {
     position: relative;
+    overflow: hidden;
 }
 
 .main-welcome img{
