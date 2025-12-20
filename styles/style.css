@@ -1,6 +1,11 @@
+a, h1 {
+  font-family: Garamond, serif;
+}
+
 body {
     margin: 0px;
     padding: 0px;
+    background-color: black;
 }
 
 /* navigation start */
@@ -19,7 +24,7 @@ body {
     justify-content:space-around;
     align-items: center;
 
-    background-color: #27391C;
+    background-color: #255F38;
 }
 
 .navigation {
@@ -27,6 +32,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 10px;
+    padding: 0px;
 }
 
 .navigation li a {
@@ -41,3 +47,56 @@ body {
 }
 
 /* navigation end */
+
+/* main */
+
+.main-welcome {
+    position: relative;
+}
+
+.main-welcome img{
+    width: 100%;
+    height: auto;
+    opacity: 80%;
+}
+
+.main-welcome-overlay {
+    position: absolute;
+    top: 0%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    padding: 4rem;
+    gap: 5rem;
+}
+
+.main-welcome-title {
+    color: #255F38;
+    font-size: 5rem;
+}
+
+.main-welcome-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+    align-items: center;
+}
+
+.main-welcome-buttons a {
+    color: white;
+    background-color: #255F38;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 12rem;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+/* main end*/
