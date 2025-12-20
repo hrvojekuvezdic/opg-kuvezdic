@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 a, h1 {
   font-family: Garamond, serif;
 }
@@ -56,7 +60,7 @@ body {
 
 .main-welcome img{
     width: 100%;
-    height: auto;
+    height: 100%;
     opacity: 80%;
 }
 
@@ -98,5 +102,62 @@ body {
     text-decoration: none;
     font-size: 2rem;
 }
+
+.main-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #255F38;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.main-about img {
+    width: 400px;
+
+}
+
+.main-about h2,
+.main-about p {
+    color: white;
+}
+
+.main-about h2 {
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+
+.main-about p {
+    width: 50rem;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.main-about a {
+    color: white;
+    background-color: #1F7D53;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 12rem;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.main-about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.main-about-content a {
+    text-align: center;
+    align-self: center;
+    margin-top: 1rem;
+}
+
+
+
 
 /* main end*/
