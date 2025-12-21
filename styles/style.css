@@ -52,7 +52,7 @@ body {
 
 /* navigation end */
 
-/* main start */
+/* main page start */
 
 /* welcome start */
 
@@ -242,7 +242,7 @@ body {
 /* footer start */
 
 footer {
-    background-color: #18230F;
+    background-color: rgb(35, 47, 35);
     margin: 0;
     display: flex;
     flex-direction: row;
@@ -292,4 +292,73 @@ footer a {
 /* footer end */
 
 
-/* main end*/
+/* main page end*/
+
+/* about page start */
+
+.about hr {
+    border: none;
+    background-color:#255F38;
+    height: 0.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.about-cover {
+    width: 100%;
+}
+
+.about-cover img {
+    width: 100%;
+    height: auto;
+    opacity: 85%;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.about-content-topic-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.about-content-topic {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    margin-top: 2rem;
+}
+
+.about-content-topic-text {
+    width: 450px;
+    text-align: justify;
+    color: #255F38;
+}
+
+
+.about-content-topic img {
+    width: 450px;
+    height: 330px;
+    object-fit: cover;
+}
+
+.about-content hr {
+    border: none;
+    background-color:#255F38;
+    height: 0.1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+}
+.about-content-topic-text:nth-child(even) h2 {
+    text-align: end;
+}
+
+
+/* about page end */
