@@ -1,0 +1,35 @@
+.navigation-container img {
+    width: 70px;
+    height: 70px;
+}
+
+.navigation-container {
+    margin: 0px;
+    padding: 0px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+
+    background-color: #255F38;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 0px;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: white;
+}
+
+.language-selector {
+    width: 70px;
+    color: white;
+    text-decoration: none;
+}
