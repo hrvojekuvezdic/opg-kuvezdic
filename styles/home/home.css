@@ -116,15 +116,51 @@
     margin-bottom: 3rem;
 }
 
-/* topic end */
-
-/* tractor break start */
-
-.main-tractor-break {
-    width: 100%;
-    height: auto;
+.main-topic-button {
+    margin-bottom: 3rem;
 }
 
-/* tractor break end */
+.main-topic-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.main-topic-even-title {
+    align-self: flex-end;
+}
+
+.main-topic-content ul li {
+    list-style: square;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.main-topic a.main-topic-email {
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    width: auto;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.main-topic iframe {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+/* topic end */
+
+/* image break start */
+
+.main-img-break {
+    all: unset;
+    width: 100%;
+    height: auto;
+    opacity: 90%;
+}
+
+/* image break end */
 
 /* main page end */
