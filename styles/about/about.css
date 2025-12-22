@@ -32,6 +32,12 @@
     gap: 2rem;
 }
 
+.about-content-topic-container h1 {
+    color: #255F38;
+    font-size: 4rem;
+    font-style: italic;
+}
+
 .about-content-topic {
     display: flex;
     flex-direction: row;
