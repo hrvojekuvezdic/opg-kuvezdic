@@ -51,6 +51,9 @@
     color: #255F38;
 }
 
+.about-content-topic-text-highlight {
+    font-weight: bold;
+}
 
 .about-content-topic img {
     width: 450px;

@@ -78,7 +78,8 @@
 
 .main-topic h2 {
     padding-top: 2rem;
-    font-size: 2rem;
+    font-size: 3rem;
+    color: #E1AD01;
 }
 
 .main-topic p {
@@ -88,8 +89,8 @@
 }
 
 .main-topic a {
-    color: white;
-    background-color: #1F7D53;
+    color: black;
+    background-color: #E1AD01;
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 1rem;
@@ -110,6 +111,11 @@
     text-align: center;
     align-self: center;
     margin-top: 1rem;
+}
+
+.main-topic-content-highlight {
+    color: #E1AD01;
+    font-weight: bold;
 }
 
 .main-topic-content:nth-child(2)  a {
@@ -138,6 +144,7 @@
 
 .main-topic a.main-topic-email {
     background-color: transparent;
+    color: white;
     padding: 0;
     border-radius: 0;
     width: auto;
@@ -159,6 +166,7 @@
     width: 100%;
     height: auto;
     opacity: 90%;
+    display: block;
 }
 
 /* image break end */
