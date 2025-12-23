@@ -1,131 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OPG Kuveždić</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>OPG Kuveždić</title>
 
-    <link rel="stylesheet" href="../styles/base/base.css">
-    <link rel="stylesheet" href="../styles/base/navigation.css">
-    <link rel="stylesheet" href="../styles/base/footer.css">
+	<link rel="stylesheet" href="../styles/base/base.css" />
+	<link rel="stylesheet" href="../styles/base/navigation.css" />
+	<link rel="stylesheet" href="../styles/base/footer.css" />
 
-    <link rel="stylesheet" href="../styles/products/products.css">
+	<link rel="stylesheet" href="../styles/products/products.css" />
 </head>
+
 <body>
-    <header>
-        <nav class="navigation-container" id="start">
-            <a href="../index.html">
-                <img src="../images/base/logo.png" alt="Logo">
-            </a>
-            <ul class="navigation">
-                <li><a href="../index.html">NASLOVNICA</a></li>
-                <li><a href="./about.html">O NAMA</a></li>
-                <li><a href="./products.html">PROIZVODI</a></li>
-                <li><a href="../index.html">RECEPTI</a></li>
-                <li><a href="../index.html">KONTAKT</a></li>
-            </ul>
-            <a href="../index.html" class="language-selector">HRV</a>
-        </nav>
-    </header>
+	<header>
+		<nav class="navigation-container" id="start">
+			<a href="../index.html">
+				<img src="../images/base/logo.png" alt="Logo" />
+			</a>
+			<ul class="navigation">
+				<li><a href="../index.html">NASLOVNICA</a></li>
+				<li><a href="./about.html">O NAMA</a></li>
+				<li><a href="./products.html">PROIZVODI</a></li>
+				<li><a href="../index.html">RECEPTI</a></li>
+				<li><a href="../index.html">KONTAKT</a></li>
+			</ul>
+			<a href="../index.html" class="language-selector">HRV</a>
+		</nav>
+	</header>
 
-    <main>
-        <div class="products-cover">
-            <img 
-                src="../images/products/bean-field.jpg" alt="White bean">
-            <hr>
-        </div>
+	<main>
+		<div class="products-cover">
+			<img src="../images/products/bean-field.jpg" alt="White bean" />
+			<hr />
+		</div>
 
-        <div class="products-content">
-            <h1>Proizvodi</h1>
-            <div class="products-content-grid">
-                <div class="products-content-grid-item">
-                    <img src="../images/products/item-white-bean.jpg" alt="White beans">
-                    <div class="products-content-grid-item-text">
-                        <h2>Slavonski grah</h2>
-                        <h3>6 EUR / kg</h3>
-                        <div class="products-content-grid-item-text-button-container">
-                            <a href="">DETALJI</a>
-                            <a href=""> Dodaj </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="products-content-grid-item">
-                    <img src="../images/products/item-bean-tresnjevac.jpg" alt="Red kidney beans">
-                    <div class="products-content-grid-item-text">
-                        <h2>Grah trešnjevac</h2>
-                        <h3>6 EUR / kg</h3>
-                        <div class="products-content-grid-item-text-button-container">
-                            <a href="">DETALJI</a>
-                            <a href=""> Dodaj </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="products-content-grid-item">
-                    <img src="../images/products/item-bean-string.jpeg" alt="Bean strings">
-                    <div class="products-content-grid-item-text">
-                        <h2>Mahune</h2>
-                        <h3>6 EUR / kg</h3>
-                        <div class="products-content-grid-item-text-button-container">
-                            <a href="">DETALJI</a>
-                            <a href=""> Dodaj </a>
-                        </div>
-                    </div>
-                </div>
+		<div class="products-content-container">
+			<div class="products-search-and-sort">
+				<h2>Pretraga</h2>
+				<input type="text" id="productSearch" placeholder="Pretraži proizvode..."
+					class="products-search-and-sort-search" />
 
-                <div class="products-content-grid-item">
-                    <img src="../images/products/item-watermelon.jpg" alt="Watermelon">
-                    <div class="products-content-grid-item-text">
-                        <h2>Lubenica</h2>
-                        <h3>6 EUR / kg</h3>
-                        <div class="products-content-grid-item-text-button-container">
-                            <a href="">DETALJI</a>
-                            <a href=""> Dodaj </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="products-content-grid-item">
-                    <img src="../images/products/item-melon.jpg" alt="Melon">
-                    <div class="products-content-grid-item-text">
-                        <h2>Dinja</h2>
-                        <h3>6 EUR / kg</h3>
-                        <div class="products-content-grid-item-text-button-container">
-                            <a href="">DETALJI</a>
-                            <a href=""> Dodaj </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="products-content-grid-item">
-                    <img src="../images/products/item-sunflower.jpg" alt="Sunflower seeds">
-                    <div class="products-content-grid-item-text">
-                        <h2>Suncokretove sjemenke</h2>
-                        <h3>6 EUR / kg</h3>
-                        <div class="products-content-grid-item-text-button-container">
-                            <a href="">DETALJI</a>
-                            <a href=""> Dodaj </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
+				<hr>
 
-    </main>
+				<h2>Sortiraj</h2>
+				<div class="products-search-and-sort-sort">
+					<div class="products-search-and-sort-sort-category">
+						<label for="bean">Grah</label>
+						<input type="checkbox" id="bean" value="grah">
+					</div>
 
-    <footer>
-        <div class="footer-contact">
-            <h3>OPG Tomislav Kuveždić</h3>
-            <a href="mailto:fake.email@email.com" class="footer-mailto">fake.email@email.com</a>
-            <p>+385 23 321 9987</p>
-        </div>
-        <div class="footer-social-media">
-            <h3>Pratite nas i na društvenim mrežama:</h3>
-            <div class="footer-social-media-list">
-                <img src="../images/base/logo-facebook.png" alt="Facebook logo">
-                <img src="../images/base/logo-instagram.jpg" alt="Instagram logo">
-            </div>
-        </div>
-        <a href="#start" class="footer-goto-start"><h3>Vrati se na vrh</h3></a>
-    </footer>
+					<div class="products-search-and-sort-sort-category">
+						<label for="melon">Lubenica</label>
+						<input type="checkbox" id="melon" value="lubenica">
+					</div>
 
+					<div class="products-search-and-sort-sort-category">
+						<label for="sunflower">Suncokret</label>
+						<input type="checkbox" id="sunflower" value="suncokret">
+					</div>
+				</div>
+
+			</div>
+
+			<div class="products-content">
+				<h1>Proizvodi</h1>
+				<div class="products-content-grid">
+					<div class="products-content-grid-item">
+						<img src="../images/products/item-white-bean.jpg" alt="White beans" />
+						<div class="products-content-grid-item-text">
+							<h2>Slavonski grah</h2>
+							<h3>6 EUR / kg</h3>
+							<div class="products-content-grid-item-text-button-container">
+								<a href="">DETALJI</a>
+								<a href="">Dodaj</a>
+							</div>
+						</div>
+					</div>
+					<div class="products-content-grid-item">
+						<img src="../images/products/item-bean-tresnjevac.jpg" alt="Red kidney beans" />
+						<div class="products-content-grid-item-text">
+							<h2>Grah trešnjevac</h2>
+							<h3>6 EUR / kg</h3>
+							<div class="products-content-grid-item-text-button-container">
+								<a href="">DETALJI</a>
+								<a href=""> Dodaj </a>
+							</div>
+						</div>
+					</div>
+					<div class="products-content-grid-item">
+						<img src="../images/products/item-bean-string.jpeg" alt="Bean strings" />
+						<div class="products-content-grid-item-text">
+							<h2>Mahune</h2>
+							<h3>6 EUR / kg</h3>
+							<div class="products-content-grid-item-text-button-container">
+								<a href="">DETALJI</a>
+								<a href=""> Dodaj </a>
+							</div>
+						</div>
+					</div>
+
+					<div class="products-content-grid-item">
+						<img src="../images/products/item-watermelon.jpg" alt="Watermelon" />
+						<div class="products-content-grid-item-text">
+							<h2>Lubenica</h2>
+							<h3>6 EUR / kg</h3>
+							<div class="products-content-grid-item-text-button-container">
+								<a href="">DETALJI</a>
+								<a href=""> Dodaj </a>
+							</div>
+						</div>
+					</div>
+					<div class="products-content-grid-item">
+						<img src="../images/products/item-melon.jpg" alt="Melon" />
+						<div class="products-content-grid-item-text">
+							<h2>Dinja</h2>
+							<h3>6 EUR / kg</h3>
+							<div class="products-content-grid-item-text-button-container">
+								<a href="">DETALJI</a>
+								<a href=""> Dodaj </a>
+							</div>
+						</div>
+					</div>
+					<div class="products-content-grid-item">
+						<img src="../images/products/item-sunflower.jpg" alt="Sunflower seeds" />
+						<div class="products-content-grid-item-text">
+							<h2>Suncokretove sjemenke</h2>
+							<h3>6 EUR / kg</h3>
+							<div class="products-content-grid-item-text-button-container">
+								<a href="">DETALJI</a>
+								<a href=""> Dodaj </a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div class="footer-contact">
+			<h3>OPG Tomislav Kuveždić</h3>
+			<a href="mailto:fake.email@email.com" class="footer-mailto">fake.email@email.com</a>
+			<p>+385 23 321 9987</p>
+		</div>
+		<div class="footer-social-media">
+			<h3>Pratite nas i na društvenim mrežama:</h3>
+			<div class="footer-social-media-list">
+				<img src="../images/base/logo-facebook.png" alt="Facebook logo" />
+				<img src="../images/base/logo-instagram.jpg" alt="Instagram logo" />
+			</div>
+		</div>
+		<a href="#start" class="footer-goto-start">
+			<h3>Vrati se na vrh</h3>
+		</a>
+	</footer>
+	<script src="../scripts/products/products.js"></script>
 </body>
+
 </html>
