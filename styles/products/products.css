@@ -138,6 +138,18 @@
     align-items: center;
 }
 
+.products-content-grid-item-text a {
+    text-decoration: none;
+}
+
+.products-content-grid-item-text h2:hover {
+    color:#E1AD01;
+}
+
+.products-content-grid-item-text-button-container a:hover {
+    color: #255F38;
+}
+
 .products-content-grid-item-text h2,
 .products-content-grid-item-text h3 {
     color: white;
