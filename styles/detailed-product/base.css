@@ -19,6 +19,15 @@ main {
     margin-bottom: 2rem;
 }
 
+.detailed-product-container hr {
+    border: none;
+    background-color:#E1AD01 ;
+    height: 0.2rem;
+    width: 65%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 .detailed-product-content {
     display: flex;
     flex-direction: row;
@@ -43,6 +52,23 @@ main {
     color: #E1AD01;
     font-weight: bold;
     font-size: 1.5rem;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 30%;
+  margin-top: 0;
+}
+
+td, th {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color:#bbc89b;
 }
 
 /* detailed white bean end */
