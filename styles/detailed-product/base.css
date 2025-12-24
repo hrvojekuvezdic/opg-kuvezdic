@@ -26,11 +26,6 @@ main {
     gap: 3rem;
 }
 
-.detailed-product-content img {
-    width: 500px;
-    height: auto;
-    object-fit: cover;
-}
 
 .detailed-product-content-text {
     display: flex;

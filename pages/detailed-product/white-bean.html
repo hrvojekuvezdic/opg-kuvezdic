@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="../../styles/base/footer.css" />
 
 	<link rel="stylesheet" href="../../styles/detailed-product/base.css">
+	<link rel="stylesheet" href="../../styles/detailed-product/slider.css">
 </head>
 
 <body>
@@ -33,7 +34,27 @@
 	<main id="start">
 		<section class="detailed-product-container">
 			<div class="detailed-product-content">
-				<img src="../../images/products/item-white-bean.jpg" alt="White bean">
+
+				<div class="slider">
+					<div class="slides">
+						<img class="slide active" src="../../images/detailed-product/white-bean/white-bean.jpg"
+							alt="White bean">
+						<img class="slide" src="../../images/detailed-product/white-bean/white-bean-field.jpg"
+							alt="White bean field">
+						<img class="slide" src="../../images/detailed-product/white-bean/white-bean-harvest-ready.jpeg"
+							alt="cp3">
+					</div>
+
+					<button class="slider-button previous" id="previousButton">&larr;</button>
+					<button class="slider-button next" id="nextButton">&rarr;</button>
+
+					<div class="slider-dots">
+						<span class="dot active" data-index="0"></span>
+						<span class="dot" data-index="1"></span>
+						<span class="dot" data-index="2"></span>
+					</div>
+				</div>
+
 				<div class="detailed-product-content-text">
 					<h1>Slavonski grah</h1>
 					<p><span class="detailed-product-content-text-highlight">6 EUR/kg</span></p>
@@ -65,6 +86,7 @@
 		</a>
 	</footer>
 	<script src="../../scripts/base/base.js"></script>
+	<script src="../../scripts/detailed-product/slider.js"></script>
 </body>
 
 </html>
