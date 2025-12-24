@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OPG Kuveždić</title>
+
+    <link rel="stylesheet" href="../../styles/base/base.css" />
+    <link rel="stylesheet" href="../../styles/base/navigation.css" />
+    <link rel="stylesheet" href="../../styles/base/footer.css" />
+
+    <link rel="stylesheet" href="../../styles/detailed-product/base.css">
+    <link rel="stylesheet" href="../../styles/detailed-product/slider.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navigation-container">
+            <a href="../../index.html">
+                <img src="../../images/base/logo.png" alt="Logo" />
+            </a>
+            <ul class="navigation">
+                <li><a href="../../index.html">NASLOVNICA</a></li>
+                <li><a href="../about.html">O NAMA</a></li>
+                <li><a href="../products.html">PROIZVODI</a></li>
+                <li><a href="../../index.html">RECEPTI</a></li>
+                <li><a href="../../index.html">KONTAKT</a></li>
+            </ul>
+            <a href="../../index.html" class="language-selector">HRV</a>
+        </nav>
+    </header>
+
+    <main id="start">
+        <section class="detailed-product-container">
+            <div class="detailed-product-content">
+
+                <div class="slider">
+                    <div class="slides">
+                        <img class="slide active" src="../../images/detailed-product/bean-string/bean-string.jpeg"
+                            alt="White bean">
+                        <img class="slide" src="../../images/detailed-product/bean-string/bean-string-2.jpg"
+                            alt="White bean field">
+                        <img class="slide" src="../../images/detailed-product/bean-string/bean-string-field.jpg"
+                            alt="cp3">
+                    </div>
+
+                    <button class="slider-button previous" id="previousButton">&larr;</button>
+                    <button class="slider-button next" id="nextButton">&rarr;</button>
+
+                    <div class="slider-dots">
+                        <span class="dot active" data-index="0"></span>
+                        <span class="dot" data-index="1"></span>
+                        <span class="dot" data-index="2"></span>
+                    </div>
+                </div>
+
+                <div class="detailed-product-content-text">
+                    <h1>Mahune</h1>
+                    <p><span class="detailed-product-content-text-highlight">7 EUR/kg</span></p>
+                    <p>Minimalna uporaba kemijskih sredstava</p>
+                    <p>Strojno i ručno očišćen</p>
+                    <p>Pakirano u plastičnim vrečicama</p>
+                    <hr>
+                    <p>Kategorija: <span class="detailed-product-content-text-highlight">Grah</span></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-contact">
+            <h3>OPG Tomislav Kuveždić</h3>
+            <a href="mailto:fake.email@email.com" class="footer-mailto">fake.email@email.com</a>
+            <p>+385 23 321 9987</p>
+        </div>
+        <div class="footer-social-media">
+            <h3>Pratite nas i na društvenim mrežama:</h3>
+            <div class="footer-social-media-list">
+                <img src="../../images/base/logo-facebook.png" alt="Facebook logo" />
+                <img src="../../images/base/logo-instagram.jpg" alt="Instagram logo" />
+            </div>
+        </div>
+        <a href="#start" class="footer-goto-start" id="gotoStart">
+            <h3>↑</h3>
+        </a>
+    </footer>
+    <script src="../../scripts/base/base.js"></script>
+    <script src="../../scripts/detailed-product/slider.js"></script>
+</body>
+
+</html>
