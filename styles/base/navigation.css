@@ -36,7 +36,13 @@
 }
 
 .language-selector {
-    width: 70px;
     color: white;
     text-decoration: none;
+}
+
+.navigation-rightside {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
 }

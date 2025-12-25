@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPG Kuveždić</title>
+    <link rel="stylesheet" href="../styles/base/base.css">
+    <link rel="stylesheet" href="../styles/base/navigation.css">
+    <link rel="stylesheet" href="../styles/base/footer.css">
+
+    <link rel="stylesheet" href="../styles/basket/base.css">
+    <link rel="stylesheet" href="../styles/basket/basket.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navigation-container">
+            <a href="../index.html">
+                <img src="../images/base/logo.png" alt="Logo">
+            </a>
+            <ul class="navigation">
+                <li><a href="../index.html">NASLOVNICA</a></li>
+                <li><a href="./about.html">O NAMA</a></li>
+                <li><a href="./products.html">PROIZVODI</a></li>
+                <li><a href="../index.html">RECEPTI</a></li>
+                <li><a href="../index.html">KONTAKT</a></li>
+            </ul>
+            <div class="navigation-rightside">
+                <a href="./basket.html"><img src="../images/base/cart.png" alt=""></a>
+                <a href="./index.html" class="language-selector">HRV</a>
+            </div>
+        </nav>
+    </header>
+
+    <main id="start">
+        <h1>Košarica</h1>
+        <section class="basket">
+            <div class="basket-list" id="basketList"></div>
+
+            <div class="line-break"></div>
+
+            <div class="basket-total">
+                <h2 class="item-highlight">Ukupno:</h2>
+                <div class="basket-total-prices" id="basketTotal"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-contact">
+            <h3>OPG Tomislav Kuveždić</h3>
+            <a href="mailto:fake.email@email.com" class="footer-mailto">fake.email@email.com</a>
+            <p>+385 23 321 9987</p>
+        </div>
+        <div class="footer-social-media">
+            <h3>Pratite nas i na društvenim mrežama:</h3>
+            <div class="footer-social-media-list">
+                <img src="../images/base/logo-facebook.png" alt="Facebook logo">
+                <img src="../images/base/logo-instagram.jpg" alt="Instagram logo">
+            </div>
+        </div>
+        <a href="#start" class="footer-goto-start" id="gotoStart">
+            <h3>↑</h3>
+        </a>
+    </footer>
+    <script src="../scripts/base/base.js"></script>
+    <script src="../scripts/basket/basket.js"></script>
+</body>
+
+</html>

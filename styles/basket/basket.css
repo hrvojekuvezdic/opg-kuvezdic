@@ -1,0 +1,120 @@
+main h1 {
+    color: #255F38;
+    font-size: 3rem;
+    font-style: italic;
+}
+
+main {
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+.basket {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+.basket-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.basket-list-item {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: start;
+    width: 700px;
+}
+
+.basket-list-item img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    max-width: 70%;
+}
+
+.basket-list-item-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.basket-list-item-text h2 {
+    font-size: 1.5rem;
+}
+
+.basket-list-item-text p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.basket-list-item-remove {
+    color: white;
+    background-color: red;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border-radius: 25px;
+    text-align: center;
+    width: 4rem;
+    cursor: pointer;
+}
+
+.basket-list-item-remove:hover {
+    text-decoration: underline;
+    background-color: rgb(169, 1, 1);
+}
+
+.basket-quantity-input {
+    width: 50px;
+    height: 30px;
+}
+
+.basket-total {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.basket-total-prices {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 1rem;
+}
+
+.basket-total-prices p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.basket-total-prices hr {
+    width: 100%;
+}
+
+.line-break {
+    border-right: 2px solid #255F38;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.item-highlight {
+    color: #255F38;
+}
+
+.order-button {
+    background-color: #255F38;
+    padding: 1rem;
+    width: 5rem;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.order-button:hover {
+    text-decoration: underline;
+    background-color: #397f50;
+}
