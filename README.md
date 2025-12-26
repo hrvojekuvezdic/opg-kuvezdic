@@ -19,7 +19,7 @@
 - Google Maps Embed.
 
 ### Tri slična rješenja dostupna trenutno na internetu:
-- [OPG Balić](cesnjak.hr/)
+- [OPG Balić](https://cesnjak.hr/)
 - [OPG Prpić](https://opg-prpic.hr/)
 - [OPG Anto Jurić](https://opgantojuric.com/)
 
