@@ -1,4 +1,4 @@
-<img width="1899" height="844" alt="home-screen" src="https://github.com/user-attachments/assets/e661fbb5-5d14-4cbf-9266-ce23a319093d" />
+<img width="1908" height="852" alt="Home page" src="https://github.com/user-attachments/assets/3009f23e-9fea-437e-b099-9dc889eb6f36" />
 
 # Web projekt iz kolegija Osnove razvoja web i mobilnih aplikacija
 
