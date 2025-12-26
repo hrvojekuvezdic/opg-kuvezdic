@@ -1,3 +1,5 @@
+<img width="1899" height="844" alt="home-screen" src="https://github.com/user-attachments/assets/e661fbb5-5d14-4cbf-9266-ce23a319093d" />
+
 # Web projekt iz kolegija Osnove razvoja web i mobilnih aplikacija
 
 ### Ime projekta: OPG Kuveždić
