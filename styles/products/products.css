@@ -56,6 +56,11 @@
     border: 3px solid transparent;
 }
 
+.products-search-and-sort-search:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0 4px rgba(225,173,1,0.32);
+}
+
 .products-search-and-sort-search:focus {
     outline: none;
     border: 3px solid #E1AD01;
@@ -83,6 +88,11 @@
 
 .products-search-and-sort-sort-category input[type="checkbox"] {
     transform: scale(1.2); 
+}
+
+.products-search-and-sort-sort-category input[type="checkbox"]:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0 3px rgba(225,173,1,0.32);
 }
 
 .products-search-and-sort-sort-category input[type="checkbox"]:checked {
@@ -239,9 +249,16 @@
 }
 
 .popup input {
-    width: 70%;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    width: 70%;
+    box-sizing: border-box;
+    border: 3px solid transparent;
+}
+
+.popup input:focus {
+    outline: none;
+    border: 3px solid #E1AD01;
 }
 
 /* Popup arrow */

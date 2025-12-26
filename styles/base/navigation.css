@@ -35,6 +35,10 @@
     color: white;
 }
 
+.navigation li a:hover {
+    color: #C99901;
+}
+
 .language-selector {
     color: white;
     text-decoration: none;
@@ -50,4 +54,8 @@
 .navigation-rightside a {
     text-decoration: none;
     color: white;
+}
+
+.navigation-rightside a:hover {
+    color: #C99901;
 }

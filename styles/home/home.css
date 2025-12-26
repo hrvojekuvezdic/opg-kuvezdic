@@ -52,6 +52,10 @@
     font-size: 2rem;
 }
 
+.main-welcome-buttons a:hover {
+    background-color: #1E4C2E;
+}
+
 /* welcome end */
 
 /* topic start */
@@ -99,6 +103,10 @@
     text-decoration: none;
     font-size: 2rem;
     border-radius: 50px;
+}
+
+.main-topic a:hover {
+    background-color: #C99901;
 }
 
 .main-topic-content {

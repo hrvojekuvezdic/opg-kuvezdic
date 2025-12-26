@@ -61,6 +61,7 @@ footer a {
 
 .footer-goto-start h3:hover {
     text-decoration: underline;
+    background-color: #C99901;
 }
 
 .footer-goto-start h3:active {
