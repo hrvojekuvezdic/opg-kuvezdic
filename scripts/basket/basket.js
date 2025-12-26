@@ -97,7 +97,7 @@ function renderCart() {
             )
             .join("") +
         `<hr><p><span class="item-highlight">Ukupno</span>: ${totalAmount.toFixed(2)} EUR</p>
-        <a href="../../pages/order.html" class="order-button">Naruči</a>`;
+        <a class="order-button" id="open-modal">Naruči</a>`;
 }
 
 renderCart();

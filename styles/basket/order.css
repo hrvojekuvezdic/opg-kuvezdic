@@ -1,0 +1,78 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background: #fff;
+    margin: 1% auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+.close {
+    float: right;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.close:hover {
+    color: #E1AD01;
+}
+
+.order-title {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+.order-title h2 {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.order-title p {
+    font-size: 1rem;
+}
+
+.order-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    gap: 1rem;
+}
+
+.order-input-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.order-input {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 100%;
+    justify-content: center;
+    width: 100%;
+}
+
+.order-input input {
+    flex: 1;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.order-container button {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}

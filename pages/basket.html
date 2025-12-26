@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="../styles/basket/base.css">
     <link rel="stylesheet" href="../styles/basket/basket.css">
+    <link rel="stylesheet" href="../styles/basket/order.css">
 </head>
 
 <body>
@@ -44,6 +45,68 @@
                 <div class="basket-total-prices" id="basketTotal"></div>
             </div>
         </section>
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span id="close-modal" class="close">&times;</span>
+
+                <form class="order-container">
+                    <div class="order-title">
+                        <h2>Obrazac za narudžbu</h2>
+                        <p>Molimo Vas da popunite sva polja!</p>
+                    </div>
+
+                    <div class="order-input-container">
+                        <h3>Puno ime</h3>
+                        <div class="order-input">
+                            <input type="text" name="ime" placeholder="Ime" required>
+                            <input type="text" name="prezime" placeholder="Prezime" required>
+                        </div>
+                    </div>
+
+                    <div class="order-input-container">
+                        <h3>Email</h3>
+                        <div class="order-input">
+                            <input type="email" name="email" placeholder="Email" required>
+                        </div>
+                    </div>
+
+                    <div class="order-input-container">
+                        <h3>Broj mobitela</h3>
+                        <div class="order-input">
+                            <input type="tel" name="phoneNumber" placeholder="Broj mobitela (npr. +385912345678)"
+                                required pattern="[0-9]+"
+                                oninvalid="this.setCustomValidity('Broj mobitela smije sadržavati samo brojke i znak +. (npr. +385912345678)')"
+                                oninput="this.setCustomValidity('')">
+                        </div>
+                    </div>
+
+                    <div class="order-input-container">
+                        <h3>Adresa za dostavu</h3>
+                        <div class="order-input">
+                            <input type="text" name="street" placeholder="Ulica i broj (npr. Kralja Tomislava 1)"
+                                required>
+                        </div>
+                    </div>
+
+                    <div class="order-input-container">
+                        <h3>Mjesto</h3>
+                        <div class="order-input">
+                            <input type="text" name="town" placeholder="Mjesto (npr. Osijek)" required>
+                            <input type="text" name="zipCode" placeholder="Poštanski broj (npr. 31000)" required
+                                pattern="[0-9]*"
+                                oninvalid="this.setCustomValidity('Poštanski broj smije sadržavati samo brojke. (npr. 31000)')"
+                                oninput="this.setCustomValidity('')">
+                        </div>
+                    </div>
+
+                    <div class="order-input-container">
+                        <button type="submit" id="orderBtn">Naruči</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
     </main>
 
     <footer>
@@ -65,6 +128,7 @@
     </footer>
     <script src="../scripts/base/base.js"></script>
     <script src="../scripts/basket/basket.js"></script>
+    <script src="../scripts/basket/order.js"></script>
 </body>
 
 </html>
