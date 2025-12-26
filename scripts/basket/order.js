@@ -1,7 +1,7 @@
 const modal = document.getElementById("modal");
 const openBtn = document.getElementById("open-modal");
 const closeBtn = document.getElementById("close-modal");
-const form = document.querySelector('#modal .order-container');
+const forms = document.querySelectorAll('#modal .order-container');
 
 openBtn.addEventListener("click", () => {
     modal.style.display = "block";
@@ -11,20 +11,29 @@ closeBtn.addEventListener("click", () => {
     modal.style.display = "none";
 });
 
-form.addEventListener("submit", (e) => {
-    if (!form.checkValidity()) {
+forms.forEach((form) => {
+    form.addEventListener("submit", (e) => {
+        if (!form.checkValidity()) {
+            e.preventDefault();
+            form.reportValidity();
+            return;
+        }
+
         e.preventDefault();
-        form.reportValidity();
-        return;
-    }
 
-    e.preventDefault();
+        if (form.id === "order-form") {
+            alert("Hvala na narudžbi! Kontaktirat ćemo vas uskoro.");
+            cart = [];
+            saveCart();
+            renderCart();
+        } else if (form.id === "question-form") {
+            alert("Hvala na upitu! Javimo vam se u najkraćem roku.");
+            form.reset();
+            modal.style.display = "none";
+        }
 
-    alert("Hvala na narudžbi! Kontaktirat ćemo vas uskoro.");
-    cart = [];
-    saveCart();
-    renderCart();
-    modal.style.display = "none";
+        modal.style.display = "none";
+    });
 });
 
 window.addEventListener("click", (e) => {

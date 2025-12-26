@@ -9,8 +9,7 @@
     <link rel="stylesheet" href="../styles/base/navigation.css">
     <link rel="stylesheet" href="../styles/base/footer.css">
 
-    <link rel="stylesheet" href="../styles/basket/base.css">
-    <link rel="stylesheet" href="../styles/basket/basket.css">
+    <link rel="stylesheet" href="../styles/contact/contact.css">
     <link rel="stylesheet" href="../styles/basket/order.css">
 </head>
 
@@ -33,25 +32,64 @@
     </header>
 
     <main id="start">
-        <h1>Košarica</h1>
-        <section class="basket">
-            <div class="basket-list" id="basketList"></div>
-
-            <div class="line-break"></div>
-
-            <div class="basket-total">
-                <h2 class="item-highlight">Ukupno:</h2>
-                <div class="basket-total-prices" id="basketTotal"></div>
+        <section class="contact-container">
+            <h1>Kontakt</h1>
+            <div class="contact-text">
+                <p>Za sva pitanja, narudžbe ili suradnju stojimo vam na raspolaganju.</p>
+                <p>Ovo su naši kontakt-podatci:</p>
             </div>
+            <div class="contact-list">
+                <div class="contact-list-item">
+                    <img src="../images/contact/icon-email.png" alt="Green email icon">
+                    <a href="mailto:fake.email@email.com" class="footer-mailto">fake.email@email.com</a>
+                </div>
+                <div class="contact-list-item">
+                    <img src="../images/contact/icon-phone.jpg" alt="Green phone icon">
+                    <p>+385 23 321 9987</p>
+                </div>
+                <div class="contact-list-item">
+                    <img src="../images/contact/icon-house.jpg" alt="Green house icon">
+                    <p>Vladimira Nazora 21, Ilača, 32248</p>
+                </div>
+            </div>
+
+            <div class="faq">
+                <h2>Česta pitanja</h2>
+
+                <details class="faq-item">
+                    <summary>Kako mogu naručiti vaše proizvode?</summary>
+                    <p>Narudžbe možete poslati putem ove stranice dodavanjem željenih proizvoda u košaricu i
+                        ispunjavanja obrasca, e-maila, telefonskim pozivom ili obrascem „Pošalji upit“ na ovoj
+                        stranici.</p>
+                </details>
+
+                <details class="faq-item">
+                    <summary>Radite li dostavu i na područje izvan Ilače?</summary>
+                    <p>Da, po dogovoru vršimo dostavu na šire područje, a za veće udaljenosti šaljemo paketnom dostavom.
+                    </p>
+                </details>
+
+                <details class="faq-item">
+                    <summary>Mogu li doći osobno preuzeti proizvode na gospodarstvu?</summary>
+                    <p>Da, osobno preuzimanje je moguće uz prethodnu najavu na telefon ili e-mail.</p>
+                </details>
+            </div>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d703.0541047882062!2d19.093058269636675!3d45.182715143467405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475c7fb42481239b%3A0x52a95a186e4b8776!2sUl.%20Vladimira%20Nazora%2021%2C%2032248%2C%20Ila%C4%8Da!5e0!3m2!1shr!2shr!4v1766422501302!5m2!1shr!2shr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <a class="order-button" id="open-modal">Pošalji upit</a>
         </section>
+
 
         <div id="modal" class="modal">
             <div class="modal-content">
                 <span id="close-modal" class="close">&times;</span>
 
-                <form class="order-container" id="order-form">
+                <form class="order-container" id="question-form">
                     <div class="order-title">
-                        <h2>Obrazac za narudžbu</h2>
+                        <h2>Obrazac za upit</h2>
                         <p>Molimo Vas da popunite sva polja!</p>
                     </div>
 
@@ -71,41 +109,18 @@
                     </div>
 
                     <div class="order-input-container">
-                        <h3>Broj mobitela</h3>
-                        <div class="order-input">
-                            <input type="tel" name="phoneNumber" placeholder="Broj mobitela (npr. +385912345678)"
-                                required pattern="\+[0-9]+"
-                                oninvalid="this.setCustomValidity('Broj mobitela smije sadržavati samo brojke i znak +. (npr. +385912345678)')"
-                                oninput="this.setCustomValidity('')">
+                        <h3>Upit</h3>
+                        <div class="order-input message">
+                            <textarea name="question" placeholder="Poruka" required></textarea>
                         </div>
                     </div>
 
                     <div class="order-input-container">
-                        <h3>Adresa za dostavu</h3>
-                        <div class="order-input">
-                            <input type="text" name="street" placeholder="Ulica i broj (npr. Kralja Tomislava 1)"
-                                required>
-                        </div>
-                    </div>
-
-                    <div class="order-input-container">
-                        <h3>Mjesto</h3>
-                        <div class="order-input">
-                            <input type="text" name="town" placeholder="Mjesto (npr. Osijek)" required>
-                            <input type="text" name="zipCode" placeholder="Poštanski broj (npr. 31000)" required
-                                pattern="[0-9]*"
-                                oninvalid="this.setCustomValidity('Poštanski broj smije sadržavati samo brojke. (npr. 31000)')"
-                                oninput="this.setCustomValidity('')">
-                        </div>
-                    </div>
-
-                    <div class="order-input-container">
-                        <button type="submit" id="orderBtn">Naruči</button>
+                        <button type="submit" id="orderBtn">Pošalji</button>
                     </div>
                 </form>
             </div>
         </div>
-
     </main>
 
     <footer>
@@ -126,7 +141,6 @@
         </a>
     </footer>
     <script src="../scripts/base/base.js"></script>
-    <script src="../scripts/basket/basket.js"></script>
     <script src="../scripts/basket/order.js"></script>
 </body>
 
