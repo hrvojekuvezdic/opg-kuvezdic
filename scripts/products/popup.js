@@ -36,15 +36,15 @@ popupButtons.forEach((popupButton) => {
 
         const quantity = parseFloat(quantityInput.value);
         
-        if (!quantity || quantity <= 0) {
-            alert("Unesite količinu veću od 0. (npr. 0.5, 1, 1.5, 2, ...)");
-            return;
-        }
-
         const decimalNumberRegex = /^[0-9]*\.?[0-9]+$/;
         const isDecimal = decimalNumberRegex.test(quantity);
         if (!isDecimal) {
             alert("Količina smije sadržavati samo brojke i točku. (npr. 0.5, 1, 1.5, 2, ...)");
+            return;
+        }
+
+        if (!quantity || quantity <= 0) {
+            alert("Unesite količinu veću od 0. (npr. 0.5, 1, 1.5, 2, ...)");
             return;
         }
 
