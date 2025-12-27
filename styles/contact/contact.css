@@ -90,10 +90,18 @@ iframe {
     color: #255F38;
 }
 
+.faq-item:hover summary {
+    text-decoration: underline;
+}
+
 .order-input.message textarea {
     width: 100%;
     min-height: 120px;
     padding: 0.5rem;
     resize: vertical;
     box-sizing: border-box;
+}
+
+.highlight {
+    color: #255F38;
 }
