@@ -55,3 +55,8 @@ h2 {
     padding: 0.5rem;
     margin-bottom: 0.5rem;
 }
+
+#current {
+    color: #E1AD01;
+    font-weight: bold;
+}

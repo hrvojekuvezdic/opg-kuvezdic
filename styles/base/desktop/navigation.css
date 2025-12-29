@@ -67,3 +67,8 @@
 .hamburger-menu {
     display: none;
 }
+
+#current {
+    color: #E1AD01;
+    font-weight: bold;
+}
