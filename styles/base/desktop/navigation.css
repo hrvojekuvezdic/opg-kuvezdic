@@ -1,3 +1,7 @@
+.navigation-container-mobile {
+    display: none;
+}
+
 .navigation-container img {
     width: 70px;
     height: 70px;
@@ -58,4 +62,8 @@
 
 .navigation-rightside a:hover {
     color: #C99901;
+}
+
+.hamburger-menu {
+    display: none;
 }

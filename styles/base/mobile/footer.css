@@ -1,0 +1,39 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    max-width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #27391C;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-contact {
+    display: none;
+}
+
+.footer-social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.footer-social-media h3 {
+    display: none;
+}
+
+.footer-social-media-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5rem;
+}

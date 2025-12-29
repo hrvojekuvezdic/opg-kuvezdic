@@ -1,0 +1,30 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#gotoStart {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    text-decoration: none;
+    display: none;
+}
+
+.footer-goto-start h3 {
+    background-color: #E1AD01;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border-radius: 50px;
+}
+
+.footer-goto-start h3:hover {
+    text-decoration: underline;
+    background-color: #C99901;
+}
+
+.footer-goto-start h3:active {
+    background-color: #255F38;
+    color:#E1AD01 ;
+}

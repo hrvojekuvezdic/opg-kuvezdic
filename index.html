@@ -6,11 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OPG Kuveždić</title>
 
-    <link rel="stylesheet" href="./styles/base/base.css">
-    <link rel="stylesheet" href="./styles/base/navigation.css">
-    <link rel="stylesheet" href="./styles/base/footer.css">
+    <link rel="stylesheet" href="./styles/base/common/goto-start.css">
 
-    <link rel="stylesheet" href="./styles/home/home.css">
+    <link rel="stylesheet" media="(min-width: 1025px)" href="./styles/base/desktop/base.css">
+    <link rel="stylesheet" media="(min-width: 1025px)" href="./styles/base/desktop/navigation.css">
+    <link rel="stylesheet" media="(min-width: 1025px)" href="./styles/base/desktop/footer.css">
+    <link rel="stylesheet" media="(min-width: 1025px)" href="./styles/home/home.css">
+
+    <link rel="stylesheet" media="(max-width: 1024px)" href="./styles/base/mobile/base.css">
+    <link rel="stylesheet" media="(max-width: 1024px)" href="./styles/base/mobile/navigation.css">
+    <link rel="stylesheet" media="(max-width: 1024px)" href="./styles/base/mobile/footer.css">
+    <link rel="stylesheet" media="(max-width: 1024px)" href="./styles/home/home-mobile.css">
 </head>
 
 <body>
@@ -20,20 +26,41 @@
             <a href="./index.html">
                 <img src="./images/base/logo.png" alt="Logo">
             </a>
+
             <ul class="navigation">
                 <li><a href="./index.html">NASLOVNICA</a></li>
                 <li><a href="./pages/about.html">O NAMA</a></li>
                 <li><a href="./pages/products.html">PROIZVODI</a></li>
                 <li><a href="./pages/contact.html">KONTAKT</a></li>
             </ul>
+
             <div class="navigation-rightside">
                 <a href="./pages/basket.html">KOŠARICA</a>
             </div>
 
         </nav>
+
+        <nav class="navigation-container-mobile">
+            <div class="navigation-mobile">
+                <div class="icons">
+                    <img src="./images/base/logo.png" alt="">
+                    <a href="javascript:void(0);" class="hamburger" onclick="myFunction()"><img
+                            src="./images/base/hamburger.png" alt="">
+                    </a>
+                </div>
+                <div id="pages">
+                    <a href="./index.html">NASLOVNICA</a>
+                    <a href="./pages/about.html">O NAMA</a>
+                    <a href="./pages/products.html">PROIZVODI</a>
+                    <a href="./pages/contact.html">KONTAKT</a>
+                </div>
+
+            </div>
+        </nav>
+
     </header>
 
-    <main id="start">
+    <main>
         <section class="main-welcome">
             <img src="./images/home/home-field.jpg" alt="A big field of green plants.">
             <div class="main-welcome-overlay">
@@ -103,7 +130,7 @@
 
         <img src="./images/home/long-field.jpg" alt="A Slavonian field of wheat" class="main-img-break">
 
-        <section class="main-topic" id="products">
+        <section class="main-topic" id="contacts">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d703.0541047882062!2d19.093058269636675!3d45.182715143467405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475c7fb42481239b%3A0x52a95a186e4b8776!2sUl.%20Vladimira%20Nazora%2021%2C%2032248%2C%20Ila%C4%8Da!5e0!3m2!1shr!2shr!4v1766422501302!5m2!1shr!2shr"
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -111,7 +138,7 @@
             <div class="main-topic-content">
                 <h2 class="main-topic-even-title">KONTAKT</h2>
                 <p>Za sva pitanja, narudžbe ili suradnju stojimo vam na raspolaganju. Ovo su naši kontakt-podatci:</p>
-                <ul>
+                <ul class="main-topic-contact-list">
                     <li>Email: <a href="mailto:fake.email@email.com" class="main-topic-email">fake.email@email.com</a>
                     </li>
                     <li>Telefon: +385 23 321 9987</li>
@@ -132,8 +159,13 @@
         <div class="footer-social-media">
             <h3>Pratite nas i na društvenim mrežama:</h3>
             <div class="footer-social-media-list">
-                <img src="./images/base/logo-facebook.png" alt="Facebook logo">
-                <img src="./images/base/logo-instagram.jpg" alt="Instagram logo">
+                <a href="mailto:fake.email@email.com"><img src="./images/base/mail.png" alt="A mail icon"
+                        class="mobile-icon"></a>
+                <a href="tel:+1800229933"><img src="./images/base/phone.png" alt="A phone icon" class="mobile-icon"></a>
+                <a href="https://www.facebook.com/profile.php?id=61555952655361" target="_blank"><img
+                        src="./images/base/logo-facebook.png" alt="Facebook logo"></a>
+                <a href="https://www.instagram.com/_bean_farm_/" target="_blank"><img
+                        src="./images/base/logo-instagram.jpg" alt="Instagram logo"></a>
             </div>
         </div>
         <a href="#start" class="footer-goto-start" id="gotoStart">
@@ -141,6 +173,7 @@
         </a>
     </footer>
     <script src="./scripts/base/base.js"></script>
+    <script src="./scripts/base/hamburger-menu.js"></script>
 </body>
 
 </html>
