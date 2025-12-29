@@ -1,9 +1,13 @@
-function myFunction() {
-    var pages = document.getElementById("pages");
+var pages = document.getElementById("pages");
+
+function toggleHamburger() {
     pages.classList.toggle('show');
 }
 
 document.addEventListener('DOMContentLoaded', function() {
     var hamburger = document.querySelector('.hamburger');
-    hamburger.addEventListener('click', myFunction);
+    hamburger.addEventListener('click', toggleHamburger);
 });
+
+var current = document.getElementById("current");
+current.addEventListener('click', toggleHamburger);
