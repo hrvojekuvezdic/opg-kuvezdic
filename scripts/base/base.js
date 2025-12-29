@@ -17,11 +17,3 @@ window.addEventListener('scroll', () => {
         gotoStart.style.display = 'none';
     }
 });
-
-if (window.innerWidth <= 1024) {
-    document.querySelector('main').removeAttribute('id');
-    document.querySelector('.navigation-container-mobile').id = 'start';
-} else {
-    document.querySelector('main').id = 'start';
-    document.querySelector('.navigation-container-mobile').removeAttribute('id');
-}

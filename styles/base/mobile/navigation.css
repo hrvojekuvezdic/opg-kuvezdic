@@ -21,9 +21,16 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     margin: 0;
     padding: 0;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #E1AD01;
 }
 
 #pages {
@@ -47,4 +54,8 @@
     color: white;
     padding: 0.5rem;
     margin-bottom: 0.5rem;
+}
+
+ul li {
+    list-style: none;
 }
