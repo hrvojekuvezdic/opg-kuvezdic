@@ -56,16 +56,6 @@
     border: 3px solid transparent;
 }
 
-.products-search-and-sort-search:hover {
-    cursor: pointer;
-    box-shadow: 0 0 0 4px rgba(225,173,1,0.32);
-}
-
-.products-search-and-sort-search:focus {
-    outline: none;
-    border: 3px solid #E1AD01;
-}
-
 .products-search-and-sort-sort {
     display: flex;
     flex-direction: column;
@@ -88,15 +78,6 @@
 
 .products-search-and-sort-sort-category input[type="checkbox"] {
     transform: scale(1.2); 
-}
-
-.products-search-and-sort-sort-category input[type="checkbox"]:hover {
-    cursor: pointer;
-    box-shadow: 0 0 0 3px rgba(225,173,1,0.32);
-}
-
-.products-search-and-sort-sort-category input[type="checkbox"]:checked {
-    accent-color: #E1AD01;
 }
 
 /* search and sort end */
@@ -180,143 +161,6 @@
     gap: 1rem;
 }
 
-.products-content-grid-item-text-button-container a {
-    color: black;
-    background-color: #E1AD01;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    width: 6rem;
-    text-decoration: none;
-    font-size: 1rem;
-    border-radius: 50px;
-    text-align: center;
-    margin-bottom: 1rem;
-}
-
 /* products list end */
-
-/* popup start */
-
-    
-.popup-button {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    
-    color: black;
-    background-color: #E1AD01;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    width: 6rem;
-    text-decoration: none;
-    font-size: 1rem;
-    border-radius: 50px;
-    text-align: center;
-    margin-bottom: 1rem;
-}
-
-.popup-button:hover {
-    color: #255F38;
-}
-
-/* The actual popup */
-.popup-button .popup {
-    visibility: hidden;
-    width: 250px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding-top: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    z-index: 1;
-    bottom: 0%;
-    left: 0%;
-    margin-left: -80px;
-}
-
-.popup input {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    width: 70%;
-    box-sizing: border-box;
-    border: 3px solid transparent;
-}
-
-.popup input:focus {
-    outline: none;
-    border: 3px solid #E1AD01;
-}
-
-/* Popup arrow */
-.popup-button .popup::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
-}
-
-.popup-button .popup.show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
-}
-
-@-webkit-keyframes fadeIn {
-    from {opacity: 0;} 
-    to {opacity: 1;}
-}
-
-@keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity:1 ;}
-}
-
-.confirm-reject {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    gap: 1rem;
-}
-
-.confirm-reject p {
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-    border-radius: 25px;
-}
-
-.popup-accept {
-    background-color: green;
-}
-
-.popup-accept:hover {
-    background-color: rgb(0, 200, 0);
-}
-
-.popup-reject {
-    background-color: red;
-}
-
-.popup-reject:hover {
-    background-color: rgb(227, 0, 0);
-}
-
-/* popup end */
 
 /* products page end */

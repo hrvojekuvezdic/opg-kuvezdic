@@ -31,7 +31,7 @@ function filterProducts() {
       title.includes('grah') || title.includes('mahune');
     const isMelonItem =
       title.includes('lubenica') || title.includes('dinja');
-    const isSunflowerItem = title.includes('suncokret');
+    const isSunflowerItem = title.includes('sunc');
 
     let matchesCategory = true;
 
@@ -58,3 +58,8 @@ if (searchInput) {
 [beanCheckbox, melonCheckbox, sunflowerCheckbox].forEach(cb => {
     cb.addEventListener('change', filterProducts);
 });
+
+if (window.innerWidth <= 1024) {
+    var sunflowerItem = document.getElementById('sunflowerItem');
+    sunflowerItem.textContent = "Sunc. sjemenke"
+}

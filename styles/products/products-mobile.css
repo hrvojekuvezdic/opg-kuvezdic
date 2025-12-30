@@ -1,0 +1,131 @@
+.products-cover {
+    display: none;
+}
+
+.products-content-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.products-search-and-sort {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.products-search-and-sort h2 {
+    display: none;
+}
+
+#productSearch {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    box-sizing: border-box;
+    border: 3px solid transparent;
+}
+
+
+.products-search-and-sort-sort {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.products-search-and-sort-sort label {
+    font-size: 1rem;
+    color: white;
+}
+
+.products-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.products-content h1 {
+    display: none;
+}
+
+.products-content-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 3rem;
+    column-gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.products-content-grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.products-content-grid-item img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.products-content-grid-item-text {
+    display: flex;
+    flex-direction: column;
+    background-color: #255F38;
+    width: 130px;
+    align-items: center;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+.products-content-grid-item-text h2 {
+    font-size: 1rem;
+    color: white;
+}
+
+.products-content-grid-item-text h3 {
+    color: white;
+    font-size: 0.8rem;
+}
+
+.products-content-grid-item-text a {
+    text-decoration: none;
+}
+
+.products-content-grid-item-text-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popup {
+    display: flex;
+    flex-direction: column;
+}
+
+.popup input {
+    width: 80px;
+}
+
+.confirm-reject {
+    display: flex;
+    flex-direction: row;
+}
+
+.confirm-reject p {
+    font-size: 0.8rem;
+}
+
+.popup-button .popup {
+    width: auto;
+    margin-left: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+}
