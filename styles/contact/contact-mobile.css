@@ -1,0 +1,114 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    gap: 1rem;
+}
+
+h1 {
+    display: none;
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-text p {
+    text-align: center;
+    color: white;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contact-list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact-list-item img {
+    width: 100px;
+    height: 100px;
+}
+
+.contact-list-item a {
+    color: white;
+}
+
+.contact-list-item p {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.order-button {
+    background: #E1AD01;
+    color: black;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 300px;
+    background-color: #1f3226;
+    color: white;
+}
+
+.order-container {
+    width: 100%;
+    overflow: auto;
+    max-height: 500px;
+}
+
+.order-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-input input,
+.order-input textarea {
+    padding-left: 0.5rem;
+    cursor: pointer;
+}
+
+#orderBtn {
+    cursor: pointer;
+}
