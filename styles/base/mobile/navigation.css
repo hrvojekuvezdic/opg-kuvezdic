@@ -2,6 +2,10 @@
     display: none;
 }
 
+.navigation-container-mobile {
+    background-color: #18230F;
+}
+
 .navigation-mobile {
     display: flex;
     flex-direction: column;
