@@ -1,0 +1,112 @@
+.order-button {
+    background: #E1AD01;
+    color: black;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 300px;
+    background-color: #1f3226;
+    color: white;
+}
+
+.order-container {
+    width: 100%;
+    overflow: auto;
+    max-height: 500px;
+}
+
+.order-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-input input,
+.order-input textarea {
+    padding-left: 0.5rem;
+    cursor: pointer;
+}
+
+h1 {
+    display: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.basket-list {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    color: white;
+    gap: 2rem;
+}
+
+.basket-list input {
+    width: 3rem;
+}
+
+.basket-list img {
+    width: 200px;
+    height: 200px;
+}
+
+.line-break {
+    display: none;
+}
+
+hr {
+}
+
+.basket-total {
+    color: white;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.basket-list-item-remove {
+    color: white;
+    background-color: red;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border-radius: 25px;
+    text-align: center;
+    width: 4rem;
+    cursor: pointer;
+}
+
+.basket-list-item-remove:hover {
+    text-decoration: underline;
+    background-color: rgb(169, 1, 1);
+}
+
+.order-container {
+    scrollbar-width: none;
+}
+
+.total-text {
+    margin-bottom: 2rem;
+}
+
+.basket-total-prices {
+    text-align: end;
+}

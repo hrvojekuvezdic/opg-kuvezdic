@@ -112,3 +112,7 @@ h1 {
 #orderBtn {
     cursor: pointer;
 }
+
+.order-container {
+    scrollbar-width: none;
+}

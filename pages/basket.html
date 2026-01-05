@@ -5,13 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OPG Kuveždić</title>
-    <link rel="stylesheet" href="../styles/base/base.css">
-    <link rel="stylesheet" href="../styles/base/navigation.css">
-    <link rel="stylesheet" href="../styles/base/footer.css">
 
-    <link rel="stylesheet" href="../styles/basket/base.css">
-    <link rel="stylesheet" href="../styles/basket/basket.css">
+    <link rel="stylesheet" href="../styles/base/common/goto-start.css">
     <link rel="stylesheet" href="../styles/basket/order.css">
+
+    <link rel="stylesheet" media="(min-width: 1025px)" href="../styles/base/desktop/base.css">
+    <link rel="stylesheet" media="(min-width: 1025px)" href="../styles/base/desktop/navigation.css">
+    <link rel="stylesheet" media="(min-width: 1025px)" href="../styles/base/desktop/footer.css">
+    <link rel="stylesheet" media="(min-width: 1025px)" href="../styles/basket/basket.css">
+    <link rel="stylesheet" media="(min-width: 1025px)" href="../styles/basket/base.css">
+
+    <link rel="stylesheet" media="(max-width: 1024px)" href="../styles/base/mobile/base.css">
+    <link rel="stylesheet" media="(max-width: 1024px)" href="../styles/base/mobile/navigation.css">
+    <link rel="stylesheet" media="(max-width: 1024px)" href="../styles/base/mobile/footer.css">
+    <link rel="stylesheet" media="(max-width: 1024px)" href="../styles/basket/basket-mobile.css">
 </head>
 
 <body>
@@ -28,6 +35,25 @@
             </ul>
             <div class="navigation-rightside">
                 <a href="./basket.html"><span id="current">KOŠARICA</span></a>
+            </div>
+        </nav>
+
+        <nav class="navigation-container-mobile">
+            <div class="navigation-mobile">
+                <div class="icons">
+                    <a href="../index.html"><img src="../images/base/logo.png" alt=""></a>
+                    <h2>Košarica</h2>
+                    <a href="#" class="hamburger"><img src="../images/base/hamburger.png" alt="">
+                    </a>
+                </div>
+                <div id="pages">
+                    <a href="../index.html">NASLOVNICA</a>
+                    <a href="./about.html">O NAMA</a>
+                    <a href="./products.html">PROIZVODI</a>
+                    <a href="./contact.html">KONTAKT</a>
+                    <a href="#"><span id="current">KOŠARICA</span></a>
+                </div>
+
             </div>
         </nav>
     </header>
@@ -75,7 +101,7 @@
                         <div class="order-input">
                             <input type="tel" name="phoneNumber" placeholder="Broj mobitela (npr. +385912345678)"
                                 required pattern="\+[0-9]+"
-                                oninvalid="this.setCustomValidity('Broj mobitela smije sadržavati samo brojke i znak +. (npr. +385912345678)')"
+                                oninvalid="this.setCustomValidity('Broj mobitela mora sadržavati samo brojke i znak + ispred brojki. (npr. +385912345678)')"
                                 oninput="this.setCustomValidity('')">
                         </div>
                     </div>
@@ -117,8 +143,14 @@
         <div class="footer-social-media">
             <h3>Pratite nas i na društvenim mrežama:</h3>
             <div class="footer-social-media-list">
-                <img src="../images/base/logo-facebook.png" alt="Facebook logo">
-                <img src="../images/base/logo-instagram.jpg" alt="Instagram logo">
+                <a href="mailto:fake.email@email.com"><img src="../images/base/mail.png" alt="A mail icon"
+                        class="mobile-icon"></a>
+                <a href="tel:+1800229933"><img src="../images/base/phone.png" alt="A phone icon"
+                        class="mobile-icon"></a>
+                <a href="https://www.facebook.com/profile.php?id=61555952655361" target="_blank"><img
+                        src="../images/base/logo-facebook.png" alt="Facebook logo"></a>
+                <a href="https://www.instagram.com/_bean_farm_/" target="_blank"><img
+                        src="../images/base/logo-instagram.jpg" alt="Instagram logo"></a>
             </div>
         </div>
         <a href="#" class="footer-goto-start" id="gotoStart">
@@ -128,6 +160,7 @@
     <script src="../scripts/base/base.js"></script>
     <script src="../scripts/basket/basket.js"></script>
     <script src="../scripts/basket/order.js"></script>
+    <script src="../scripts/base/hamburger-menu.js"></script>
 </body>
 
 </html>

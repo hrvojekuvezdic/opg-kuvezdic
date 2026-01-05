@@ -96,7 +96,7 @@ function renderCart() {
                     `<p><span class="item-highlight">${item.name}</span> (${item.quantity} kg): ${item.total.toFixed(2)} EUR</p>`
             )
             .join("") +
-        `<hr><p><span class="item-highlight">Ukupno</span>: ${totalAmount.toFixed(2)} EUR</p>
+        `<hr><p class="total-text"><span class="item-highlight">Ukupno</span>: ${totalAmount.toFixed(2)} EUR</p>
         <a class="order-button" id="open-modal">Naruči</a>`;
 }
 
