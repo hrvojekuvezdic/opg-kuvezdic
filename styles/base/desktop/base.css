@@ -1,8 +1,10 @@
+@media (min-width: 1025px) {
+
 html {
     scroll-behavior: smooth;
 }
 
-a, h1 {
+* {
     font-family: Garamond, serif;
 }
 
@@ -14,4 +16,7 @@ body {
 
 img {
     display: block;
+    max-width: 100%;
+}
+
 }

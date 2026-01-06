@@ -1,3 +1,5 @@
+@media (min-width: 1025px) {
+
 body {
     display: flex;
     flex-direction: column;
@@ -19,4 +21,6 @@ main {
 
 #start {
     scroll-margin-top: 5rem;
+}
+
 }

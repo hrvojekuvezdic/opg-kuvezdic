@@ -1,4 +1,4 @@
-/* about page start */
+@media (min-width: 1025px) {
 
 .about hr {
     border: none;
@@ -69,9 +69,5 @@
     margin-bottom: 0;
     width: 100%;
 }
-.about-content-topic-text:nth-child(even) h2 {
-    text-align: end;
+
 }
-
-
-/* about page end */

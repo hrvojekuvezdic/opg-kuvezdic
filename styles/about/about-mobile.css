@@ -1,3 +1,5 @@
+@media (max-width: 1024px) {
+
 main {
     background-color: #1f3226;
 }
@@ -60,6 +62,8 @@ hr {
 
 .people {
     flex-direction: column-reverse;
+}
+
 }
 
 

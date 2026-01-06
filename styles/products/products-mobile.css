@@ -1,3 +1,5 @@
+@media (max-width: 1024px) {
+
 .products-cover {
     display: none;
 }
@@ -128,4 +130,6 @@
     left: 50%;
     transform: translateX(-50%);
     box-sizing: border-box;
+}
+
 }

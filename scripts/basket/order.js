@@ -29,7 +29,6 @@ forms.forEach((form) => {
         } else if (form.id === "question-form") {
             alert("Hvala na upitu! Javimo vam se u najkraćem roku.");
             form.reset();
-            modal.style.display = "none";
         }
 
         modal.style.display = "none";

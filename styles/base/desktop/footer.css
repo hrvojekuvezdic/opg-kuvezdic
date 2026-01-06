@@ -1,3 +1,5 @@
+@media (min-width: 1025px) {
+
 footer {
     background-color: rgb(35, 47, 35);
     margin: 0;
@@ -42,6 +44,27 @@ footer a {
     gap: 3rem;
 }
 
+.mobile-a {
+    display: none;
+}
+
 .mobile-icon {
     display: none;
+}
+
+.footer-author {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-author ul {
+    color: white;
+}
+
+.footer-author h3 {
+    text-align: center;
+}
+
 }

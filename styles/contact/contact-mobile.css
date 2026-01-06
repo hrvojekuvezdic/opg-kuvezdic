@@ -1,3 +1,5 @@
+@media (max-width: 1024px) {
+
 .contact-container {
     display: flex;
     flex-direction: column;
@@ -115,4 +117,6 @@ h1 {
 
 .order-container {
     scrollbar-width: none;
+}
+
 }

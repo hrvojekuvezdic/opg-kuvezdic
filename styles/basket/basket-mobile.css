@@ -1,3 +1,5 @@
+@media (max-width: 1024px) {
+
 .order-button {
     background: #E1AD01;
     color: black;
@@ -109,4 +111,6 @@ hr {
 
 .basket-total-prices {
     text-align: end;
+}
+
 }

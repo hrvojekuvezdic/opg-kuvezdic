@@ -1,8 +1,19 @@
 table {
-  font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 30%;
   margin-top: 0;
+}
+
+@media (max-width: 1024px) {
+  table caption {
+    color: white;
+}
+}
+
+@media (min-width: 1025px) {
+  table caption {
+    color: #255F38;
+}
 }
 
 td, th {
@@ -16,5 +27,9 @@ tr:nth-child(even) {
 }
 
 tr:nth-child(odd) {
-  background-color: white;
+  background-color: #dfe5e0;
+}
+
+th {
+  background-color: #43895a;
 }

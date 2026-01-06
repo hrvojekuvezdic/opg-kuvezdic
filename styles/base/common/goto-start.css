@@ -10,6 +10,19 @@ html {
     display: none;
 }
 
+@media (min-width: 1025px) {
+    #gotoStart {
+        bottom: 2rem;
+        right: 15rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    #gotoStart {
+        bottom: 4rem;
+    }
+}
+
 .footer-goto-start h3 {
     background-color: #E1AD01;
     padding-top: 0.5rem;

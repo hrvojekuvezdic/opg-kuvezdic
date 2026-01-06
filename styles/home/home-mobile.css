@@ -1,3 +1,5 @@
+@media (max-width: 1024px) {
+    
 .main-welcome {
     position: relative;
     height: 50vh;
@@ -75,6 +77,7 @@
 
 .main-topic-content p {
     color: white;
+    text-align: justify;
 }
 
 .main-topic-content a {
@@ -107,4 +110,11 @@
     all: unset;
     text-decoration: underline;
     cursor: pointer;
+}
+
+.main-topic-content-highlight {
+    color: #E1AD01;
+    font-weight: bold;
+}
+
 }

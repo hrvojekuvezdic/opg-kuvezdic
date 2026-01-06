@@ -1,4 +1,4 @@
-/* main page start */
+@media (min-width: 1025px) {
 
 /* welcome start */
 
@@ -94,7 +94,7 @@
     text-align: justify;
 }
 
-.main-topic a {
+.more-button {
     color: black;
     background-color: #E1AD01;
     padding-top: 1rem;
@@ -107,7 +107,7 @@
     border-radius: 50px;
 }
 
-.main-topic a:hover {
+.more-button:hover {
     background-color: #C99901;
 }
 
@@ -140,10 +140,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-}
-
-.main-topic-even-title {
-    align-self: flex-end;
 }
 
 .main-topic-content ul li {
@@ -181,4 +177,4 @@
 
 /* image break end */
 
-/* main page end */
+}

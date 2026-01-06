@@ -1,3 +1,5 @@
+@media (min-width: 1025px) {
+
 main {
     padding-top: 80px;
 }
@@ -116,4 +118,6 @@ iframe {
 
 .location h2 {
     margin-bottom: 0rem;
+}
+
 }

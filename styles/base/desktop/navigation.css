@@ -1,3 +1,5 @@
+@media (min-width: 1025px) {
+
 .navigation-container-mobile {
     display: none;
 }
@@ -71,4 +73,6 @@
 #current {
     color: #E1AD01;
     font-weight: bold;
+}
+
 }

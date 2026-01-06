@@ -1,3 +1,5 @@
+@media (max-width: 1024px) {
+
 hr {
     display: none;
 }
@@ -65,4 +67,6 @@ figure {
 
 figure figcaption {
     color: white;
+}
+
 }
