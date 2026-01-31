@@ -67,4 +67,8 @@ footer a {
     text-align: center;
 }
 
+.footer-social-media h3 {
+    display: none;
+}
+
 }
