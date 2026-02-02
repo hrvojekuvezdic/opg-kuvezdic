@@ -39,6 +39,10 @@
     justify-content: center;
 }
 
+.slider-button:hover {
+    background-color: #C99901;
+}
+
 .slider-button.previous {
     left: 8px;
 }

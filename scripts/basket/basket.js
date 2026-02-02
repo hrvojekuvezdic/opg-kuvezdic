@@ -45,7 +45,6 @@ function renderCart() {
             `;
 
         const quantityInput = itemDiv.querySelector(".basket-quantity-input");
-        const itemTotalSpan = itemDiv.querySelector(".item-total");
 
         quantityInput.addEventListener("change", () => {
             const value = quantityInput.value.trim();

@@ -1,7 +1,7 @@
 @media (min-width: 1025px) {
 
 main h1 {
-    color: #255F38;
+    color: #E1AD01;
     font-size: 3rem;
     font-style: italic;
 }
@@ -16,6 +16,7 @@ main {
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 3rem;
+    color: white;
 }
 
 .basket-list {
@@ -37,6 +38,7 @@ main {
     height: 300px;
     object-fit: cover;
     max-width: 70%;
+    border-radius: 8px;
 }
 
 .basket-list-item-text {
@@ -65,7 +67,6 @@ main {
 }
 
 .basket-list-item-remove:hover {
-    text-decoration: underline;
     background-color: rgb(169, 1, 1);
 }
 
@@ -91,6 +92,10 @@ main {
     width: 400px;
 }
 
+.basket-total h2 {
+    color: #E1AD01;
+}
+
 .basket-total-prices {
     display: flex;
     flex-direction: column;
@@ -114,23 +119,22 @@ main {
 }
 
 .item-highlight {
-    color: #255F38;
+    color: #E1AD01;
 }
 
 .order-button {
-    background-color: #255F38;
+    background-color: #E1AD01;
     padding: 1rem;
     width: 5rem;
     border-radius: 50px;
-    color: white;
+    color: black;
     text-align: center;
     cursor: pointer;
     text-decoration: none;
 }
 
 .order-button:hover {
-    text-decoration: underline;
-    background-color: #397f50;
+    background-color: #C99901;
 }
 
 }

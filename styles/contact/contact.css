@@ -5,7 +5,7 @@ main {
 }
 
 body {
-    background-color: white;
+    background-color: #1f3226;
 }
 
 .contact-container {
@@ -16,7 +16,7 @@ body {
 }
 
 .contact-container h1 {
-    color: #255F38;
+    color: #E1AD01;
     font-size: 2rem;
     font-style: italic;
 }
@@ -24,6 +24,7 @@ body {
 .contact-text {
     text-align: center;
     margin-bottom: 2rem;
+    color: white;
 }
 
 .contact-list {
@@ -41,6 +42,16 @@ body {
     flex: 1;
     justify-content: center;
     gap: 1rem;
+    color: white;
+}
+
+.contact-list-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-list-item a:hover {
+    text-decoration: underline;
 }
 
 .contact-list-item img {
@@ -59,16 +70,17 @@ iframe {
 
 .order-button {
     padding: 20px 30px;
-    background-color: #255F38;
-    color: white;
+    background-color: #E1AD01;
+    color: black;
     text-decoration: none;
     margin-top: 4rem;
     margin-bottom: 4rem;
     cursor: pointer;
+    border-radius: 50px;
 }
 
 .order-button:hover {
-    background-color: #1E4C2E;
+    background-color: #9b7b10;
 }
 
 .faq {
@@ -77,11 +89,15 @@ iframe {
 }
 
 .faq h2 {
-    color: #255F38;
+    color: #E1AD01;
 }
 
 .faq-item {
     margin-bottom: 1rem;
+}
+
+.faq-item p {
+    color: white;
 }
 
 .faq-item:hover {
@@ -89,7 +105,7 @@ iframe {
 }
 
 .faq-item summary {
-    color: #255F38;
+    color: white;
 }
 
 .faq-item:hover summary {
@@ -118,6 +134,7 @@ iframe {
 
 .location h2 {
     margin-bottom: 0rem;
+    color: #E1AD01;
 }
 
 }

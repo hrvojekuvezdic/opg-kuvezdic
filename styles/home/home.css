@@ -1,7 +1,5 @@
 @media (min-width: 1025px) {
 
-/* welcome start */
-
 .main-welcome {
     position: relative;
     overflow: hidden;
@@ -29,7 +27,7 @@
 
 .main-welcome-title {
     color: white;
-    font-size: 5rem;
+    font-size: 4rem;
     text-shadow: 2px 2px 4px black;
     margin-bottom: 1rem;
 }
@@ -43,8 +41,8 @@
 }
 
 .main-welcome-buttons a {
-    color: white;
-    background-color: #255F38;
+    color: black;
+    background-color: #E1AD01;
     padding-top: 2rem;
     padding-bottom: 2rem;
     padding-left: 2rem;
@@ -55,18 +53,14 @@
 }
 
 .main-welcome-buttons a:hover {
-    background-color: #1E4C2E;
+    background-color: #C99901;
 }
-
-/* welcome end */
-
-/* topic start */
 
 .main-topic {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #255F38;
+    background-color: #1f3226;
     padding-left: 3rem;
     padding-right: 3rem;
 }
@@ -84,7 +78,7 @@
 
 .main-topic h2 {
     padding-top: 2rem;
-    font-size: 3rem;
+    font-size: 2rem;
     color: #E1AD01;
 }
 
@@ -163,10 +157,6 @@
     margin-bottom: 3rem;
 }
 
-/* topic end */
-
-/* image break start */
-
 .main-img-break {
     all: unset;
     width: 100%;
@@ -174,7 +164,5 @@
     opacity: 90%;
     display: block;
 }
-
-/* image break end */
 
 }

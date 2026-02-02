@@ -4,9 +4,8 @@ window.addEventListener('scroll', () => {
     if (!gotoStart) return;
 
     const scrollTop = window.scrollY || document.documentElement.scrollTop;
-    const docHeight =
-    document.documentElement.scrollHeight -
-    document.documentElement.clientHeight;
+    const docHeight = document.documentElement.scrollHeight
+        - document.documentElement.clientHeight;
 
     const scrolledRatio = docHeight > 0 ? scrollTop / docHeight : 0;
 

@@ -46,7 +46,6 @@
     color: #255F38;
 }
 
-/* The actual popup */
 .popup-button .popup {
     visibility: hidden;
     width: 250px;
@@ -80,7 +79,6 @@
     border: 3px solid #E1AD01;
 }
 
-/* Popup arrow */
 .popup-button .popup::after {
     content: "";
     position: absolute;

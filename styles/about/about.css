@@ -2,7 +2,7 @@
 
 .about hr {
     border: none;
-    background-color:#255F38;
+    background-color: #255F38;
     height: 0.5rem;
     margin-top: 0;
     margin-bottom: 0;
@@ -21,7 +21,7 @@
 .about-content {
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: #1f3226;
     align-items: center;
     padding-bottom: 2rem;
 }
@@ -33,7 +33,7 @@
 }
 
 .about-content-topic-container h1 {
-    color: #255F38;
+    color: #E1AD01;
     font-size: 4rem;
     font-style: italic;
 }
@@ -48,22 +48,28 @@
 .about-content-topic-text {
     width: 450px;
     text-align: justify;
-    color: #255F38;
+    color: white;
+}
+
+.about-content-topic-text h2 {
+    color: #E1AD01;
 }
 
 .about-content-topic-text-highlight {
     font-weight: bold;
+    color: #E1AD01;
 }
 
 .about-content-topic img {
     width: 450px;
     height: 330px;
     object-fit: cover;
+    border-radius: 8px;
 }
 
 .about-content hr {
     border: none;
-    background-color:#255F38;
+    background-color: #E1AD01;
     height: 0.1rem;
     margin-top: 0;
     margin-bottom: 0;

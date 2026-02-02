@@ -8,6 +8,3 @@ document.addEventListener('DOMContentLoaded', function() {
     var hamburger = document.querySelector('.hamburger');
     hamburger.addEventListener('click', toggleHamburger);
 });
-
-var current = document.getElementById("current");
-current.addEventListener('click', toggleHamburger);

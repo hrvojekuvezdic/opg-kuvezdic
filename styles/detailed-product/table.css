@@ -6,13 +6,13 @@ table {
 
 @media (max-width: 1024px) {
   table caption {
-    color: white;
+    color: #E1AD01;
 }
 }
 
 @media (min-width: 1025px) {
   table caption {
-    color: #255F38;
+    color: #E1AD01;
 }
 }
 
@@ -31,5 +31,5 @@ tr:nth-child(odd) {
 }
 
 th {
-  background-color: #43895a;
+  background-color: #bbc89b;
 }

@@ -4,13 +4,13 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: white;
+    background-color: #1f3226;
 }
 
 main {
     margin-top: 5rem;
     flex: 1;
-    background-color: white;
+    background-color: #1f3226;
     padding-left: 3rem;
     padding-right: 3rem;
     display: flex;

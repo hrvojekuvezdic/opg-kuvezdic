@@ -8,11 +8,11 @@ body {
 
 main {
     flex: 1;
-    background-color: white;
+    background-color: #1f3226;
 }
 
 .detailed-product-container {
-    background-color: white;
+    background-color: #1f3226;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,7 +40,11 @@ main {
 .detailed-product-content-text {
     display: flex;
     flex-direction: column;
-    color: #255F38;
+    color: white;
+}
+
+.detailed-product-content-text h1 {
+    color: #E1AD01;
 }
 
 .detailed-product-content-text hr {
@@ -62,11 +66,12 @@ main {
     width: 80%;
     padding-left: 3rem;
     padding-right: 3rem;
-    color: #255F38;
+    color: #E1AD01;
 }
 
 .detailed-product-food li {
     font-size: 1.2rem;
+    color: white;
 }
 
 .recipes {
@@ -83,7 +88,7 @@ main {
 }
 
 .highlight {
-    color: #255F38;
+    color: #E1AD01;
     font-weight: bold;
 }
 

@@ -1,5 +1,9 @@
 @media (max-width: 1024px) {
 
+.title {
+    display: none;
+}
+
 .products-cover {
     display: none;
 }
